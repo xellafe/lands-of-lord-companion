@@ -1,0 +1,6 @@
+hr.divider {
+    height: 2px;
+    background: #888;
+    width: 90%;
+    margin: 5px auto;
+}

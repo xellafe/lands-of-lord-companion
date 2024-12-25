@@ -1,1 +1,1 @@
-# lands-of-lord-companion
+# Lands of Lord Companion
