@@ -1,0 +1,16 @@
+{
+  "options": [
+    {
+      "id": "notepad",
+      "title": "Notepad",
+      "help": "A notepad where you can write your personal notes",
+      "disabled": false
+    },
+    {
+      "id": "affinities",
+      "title": "Job affinity",
+      "help": "Show the job affinity of your citizens in their skills page",
+      "disabled": true
+    }
+  ]
+}

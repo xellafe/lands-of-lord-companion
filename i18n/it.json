@@ -1,0 +1,16 @@
+{
+  "options": [
+    {
+      "id": "notepad",
+      "title": "Blocco note",
+      "help": "Un blocco note nel quale poter scrivere le tue note personali",
+      "disabled": false
+    },
+    {
+      "id": "affinities",
+      "title": "Affinità lavorativa",
+      "help": "Mostra l'affinità lavorativa dei tuoi cittadini nella loro pagina delle abilità",
+      "disabled": true
+    }
+  ]
+}

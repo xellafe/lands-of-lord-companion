@@ -1,43 +1,30 @@
 {
-    "manifest_version": 3,
-    "name": "Lands of Lord Companion",
-    "version": "0.1",
-    "description": "A companion extension for Lands of Lord.",
-    "icons": {
-        "16": "icons/icon16.png",
-        "48": "icons/icon48.png"
+  "manifest_version": 3,
+  "name": "Lands of Lord Companion",
+  "version": "0.1",
+  "description": "A companion extension for Lands of Lord.",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "48": "assets/icons/icon48.png"
     },
-    "action": {
-        "default_icon": {
-            "16": "icons/icon16.png",
-            "48": "icons/icon48.png"
-        },
-        "default_title": "Clicca per eseguire l'azione",
-        "default_popup": "popup/popup.html"
-    },
-    "options_page": "options/options.html",
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*.landsoflords.com/*"
-            ],
-            "css": [
-                "styles.css"
-            ],
-            "js": [
-                "content.js"
-            ]
-        }
-    ],
-    "background": {
-        "service_worker": "background.js"
-    },
-    "host_permissions": [
-        "*://*.landsoflords.com/*"
-    ],
-    "permissions": [
-        "activeTab",
-        "alarms",
-        "notifications"
-    ]
+    "default_title": "Lands of Lord Companion",
+    "default_popup": "options/options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.landsoflords.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["*://*.landsoflords.com/*"],
+  "permissions": ["tabs", "activeTab", "alarms", "notifications", "storage"]
 }

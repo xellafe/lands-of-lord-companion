@@ -1,3 +1,61 @@
+@import url("../assets/style/fonts.css");
+
+html,
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+}
+
+nav.navbar .navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul.option-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.option-list li.option-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul.option-list li.option-list-item:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+ul.option-list li.option-list-item:hover {
+  background: #eee;
+}
+
+ul.option-list li.option-list-item span.option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul.option-list li.option-list-item span.option .option-title {
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+
+ul.option-list li.option-list-item span.option .help-icon {
+  font-size: 1.1em;
+  cursor: default;
+}
+
+input[type="checkbox"].form-check-input {
+  height: 1.1em;
+  width: 2.2em;
 }
