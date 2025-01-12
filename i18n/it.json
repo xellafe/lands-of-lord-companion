@@ -9,8 +9,8 @@
     },
     {
       "id": "affinities",
-      "title": "Affinità lavorativa",
-      "help": "Mostra l'affinità lavorativa dei tuoi cittadini nella loro pagina delle abilità",
+      "title": "Bonus innati abilità",
+      "help": "Mostra i bonus dati dalle caratteristiche dell'unità, tenendo conto solo dei bonus globali",
       "disabled": false
     }
   ],

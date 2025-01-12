@@ -9,7 +9,7 @@
     },
     {
       "id": "affinities",
-      "title": "Job affinity",
+      "title": "Innate skill bonuses",
       "help": "Show the job affinity of your citizens in their skills page",
       "disabled": false
     }

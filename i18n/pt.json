@@ -9,7 +9,7 @@
     },
     {
       "id": "affinities",
-      "title": "Afinidade de trabalho",
+      "title": "Bônus inatos de habilidades",
       "help": "Mostra a afinidade de trabalho de seus cidadãos em sua página de habilidades",
       "disabled": false
     }

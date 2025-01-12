@@ -9,7 +9,7 @@
     },
     {
       "id": "affinities",
-      "title": "Affinité professionnelle",
+      "title": "Bonus innés des compétences",
       "help": "Affiche l'affinité professionnelle de vos citoyens dans leur page de compétences",
       "disabled": false
     }
