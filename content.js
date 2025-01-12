@@ -210,7 +210,13 @@ async function addInnateSkills(translations) {
       chrome.runtime.sendMessage(
         { action: "getSkills", language: translations.language },
         (response) => {
-          const allSkills = response.skills;
+          const allSkills = Object.values(
+            response.skills.reduce((acc, obj) => {
+              acc[obj.id] = obj; // Sovrascrive oggetti con lo stesso id
+              return acc;
+            }, {})
+          );
+
           let ustats = document
             .getElementById("ustats")
             .querySelectorAll("span.nowrap");
