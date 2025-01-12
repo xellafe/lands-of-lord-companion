@@ -1,0 +1,26 @@
+{
+  "language": "es",
+  "options": [
+    {
+      "id": "notepad",
+      "title": "Bloc de notas",
+      "help": "Un bloc de notas donde puedes escribir tus notas personales",
+      "disabled": false
+    },
+    {
+      "id": "affinities",
+      "title": "Afinidad laboral",
+      "help": "Muestra la afinidad laboral de tus ciudadanos en su página de habilidades",
+      "disabled": false
+    }
+  ],
+  "notepad": {
+    "placeholder": "Escribe tus notas aquí..."
+  },
+  "skills": {
+    "innate": "Cambiar a habilidades innatas",
+    "innate_help": "Mostrar los bonos de habilidades basados en las estadísticas (tiene en cuenta bonos y penalizaciones globales)",
+    "derived": "Cambiar a habilidades derivadas",
+    "derived_help": "Mostrar los bonos de habilidades teniendo en cuenta todos los bonos de la unidad (globales, terreno, equipamiento, etc.)"
+  }
+}

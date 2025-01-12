@@ -1,7 +1,7 @@
 hr.divider {
   height: 2px;
   background: #888;
-  width: 90%;
+  width: 95%;
   margin: 5px auto;
 }
 
@@ -26,4 +26,22 @@ div#note > textarea {
   padding: 5px;
   font-size: 1em;
   color: var(--txtcolor);
+}
+
+a.skill-help {
+  margin-left: 5px;
+}
+
+.show-more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.select-mode-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
 }

@@ -1,0 +1,26 @@
+{
+  "language": "fr",
+  "options": [
+    {
+      "id": "notepad",
+      "title": "Bloc-notes",
+      "help": "Un bloc-notes où vous pouvez écrire vos notes personnelles",
+      "disabled": false
+    },
+    {
+      "id": "affinities",
+      "title": "Affinité professionnelle",
+      "help": "Affiche l'affinité professionnelle de vos citoyens dans leur page de compétences",
+      "disabled": false
+    }
+  ],
+  "notepad": {
+    "placeholder": "Écrivez vos notes ici..."
+  },
+  "skills": {
+    "innate": "Passer aux compétences innées",
+    "innate_help": "Afficher les bonus de compétences basés sur les statistiques (prend en compte les bonus et malus globaux)",
+    "derived": "Passer aux compétences dérivées",
+    "derived_help": "Afficher les bonus de compétences en tenant compte de tous les bonus de l'unité (globaux, terrain, équipement, etc.)"
+  }
+}

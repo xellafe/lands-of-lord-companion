@@ -1,0 +1,26 @@
+{
+  "language": "pt",
+  "options": [
+    {
+      "id": "notepad",
+      "title": "Bloco de notas",
+      "help": "Um bloco de notas onde você pode escrever suas notas pessoais",
+      "disabled": false
+    },
+    {
+      "id": "affinities",
+      "title": "Afinidade de trabalho",
+      "help": "Mostra a afinidade de trabalho de seus cidadãos em sua página de habilidades",
+      "disabled": false
+    }
+  ],
+  "notepad": {
+    "placeholder": "Escreva suas notas aqui..."
+  },
+  "skills": {
+    "innate": "Alternar para habilidades inatas",
+    "innate_help": "Mostrar os bônus de habilidades com base nos atributos (leva em consideração bônus e penalidades globais)",
+    "derived": "Alternar para habilidades derivadas",
+    "derived_help": "Mostrar os bônus de habilidades considerando todos os bônus da unidade (globais, terreno, equipamento, etc.)"
+  }
+}

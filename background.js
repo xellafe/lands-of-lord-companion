@@ -1,7 +1,7 @@
-const supportedLanguages = ["en", "it"];
+const supportedLanguages = ["en", "it", "es", "fr", "ua", "pt", "ru"];
 const defaultLanguage = "en";
 
-chrome.runtime.onInstalled.addListener(() => {
+/* chrome.runtime.onInstalled.addListener(() => {
   //chrome.storage.local.clear();
   // Recupera la lingua del browser
   const browserLanguage = navigator.language || navigator.userLanguage;
@@ -16,7 +16,7 @@ chrome.runtime.onInstalled.addListener(() => {
       }
     }
   });
-});
+}); */
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "getTranslation") {
@@ -25,6 +25,13 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       .then((response) => response.json())
       .then((data) => sendResponse({ translations: data }))
       .catch((err) => console.error("Error loading translations", err));
-    return true; // Mantieni il canale di comunicazione aperto per la risposta asincrona
   }
+  if (request.action === "getSkills") {
+    const language = request.language || defaultLanguage; // Ottieni la lingua selezionata
+    fetch(`./assets/data/skills/${language}.json`)
+      .then((response) => response.json())
+      .then((data) => sendResponse({ skills: data }))
+      .catch((err) => console.error("Error loading skills", err));
+  }
+  return true; // Mantieni il canale di comunicazione aperto per la risposta asincrona
 });

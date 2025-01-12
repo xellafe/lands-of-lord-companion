@@ -1,4 +1,5 @@
 {
+  "language": "en",
   "options": [
     {
       "id": "notepad",
@@ -10,7 +11,16 @@
       "id": "affinities",
       "title": "Job affinity",
       "help": "Show the job affinity of your citizens in their skills page",
-      "disabled": true
+      "disabled": false
     }
-  ]
+  ],
+  "notepad": {
+    "placeholder": "Write your notes here..."
+  },
+  "skills": {
+    "innate": "Switch to innate skills",
+    "innate_help": "Show skills bonuses based on stats (takes into account global bonuses and maluses)",
+    "derived": "Switch to derived skills",
+    "derived_help": "Show skills bonuses taking into account all bonuses on the unit (global, terrain, equipment, etc.)"
+  }
 }

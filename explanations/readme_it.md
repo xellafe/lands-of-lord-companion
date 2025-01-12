@@ -43,10 +43,10 @@ Es. *Zappe* +5 a giardinaggio con qualità del 50%, +2 a 0% e +10 al 100%
 
 Infine a questi occorre sommare bonus e malus dati dalla professione
 
-Es. *Giardiniere* +5 a giardinaggio
+Es. *Giardiniere* +5 a giardinaggio con pertinenza al 50%
 
 Perciò, considerando la nostra unità
-- giardiniere (+5 giardinaggio)
+- giardiniere con pertinenza al 50% (+5 giardinaggio)
 - il giorno 11/01/2025 (+1 Sa, +2 Co) - l'incremento porta il bonus dato dalle statistiche a +7
 - in un giardino al 50% di qualità (+10 giardinaggio)
 - equipaggiato con zappe al 50% di qualità (+5 giardinaggio)
@@ -56,5 +56,5 @@ Avremo che avrà un totale di 5+7+10+5 = +27 a giardinaggio
 
 ## Note
 
-- I bonus dati dalle professioni sono positivi solo se presenti in quella professione, altrimenti si ha un malus di -20.
+- I bonus dati dalle professioni sono positivi solo se presenti in quella professione, altrimenti si ha un malus.
 Quindi un giardiniere, che ha bonus a Giardinaggio, Raccolta della frutta, Piantumazione, Aratura e Agrimensura, di base, avrà -20 a tutte le altre abilità.

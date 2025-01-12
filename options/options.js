@@ -36,7 +36,7 @@ async function generateOptions(translations) {
     optionHelpIcon.textContent = "help";
 
     option.appendChild(optionTitle);
-    option.appendChild(optionHelpIcon);
+    //option.appendChild(optionHelpIcon);
 
     const optionSwitch = document.createElement("span");
     optionSwitch.classList.add("option-switch");

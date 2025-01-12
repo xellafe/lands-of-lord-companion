@@ -1,4 +1,5 @@
 {
+  "language": "it",
   "options": [
     {
       "id": "notepad",
@@ -10,7 +11,16 @@
       "id": "affinities",
       "title": "Affinità lavorativa",
       "help": "Mostra l'affinità lavorativa dei tuoi cittadini nella loro pagina delle abilità",
-      "disabled": true
+      "disabled": false
     }
-  ]
+  ],
+  "notepad": {
+    "placeholder": "Scrivi qui le tue note..."
+  },
+  "skills": {
+    "innate": "Passa a abilità innate",
+    "innate_help": "Mostra i bonus alle abilità sulla base delle statistiche (tiene conto di bonus e malus globali)",
+    "derived": "Passa a abilità derivate",
+    "derived_help": "Mostra i bonus alle abilità comprendendo tutti i bonus presenti sull'unità (globali, tereno, equipaggiamento, ecc.)"
+  }
 }

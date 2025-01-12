@@ -46,11 +46,11 @@ E.g. hoe +5 to Gardening at 50% quality, +2 at 0% and +10 at 100%.
 Finally, bonuses and penalties from professions must also be added.
 
 For example:
-A Gardener gets +5 to Gardening.
+A Gardener with 50% relevance gets +5 to Gardening.
 
 So, considering our unit:
 
-- Gardener (+5 to Gardening)
+- Gardener 50% relevant (+5 to Gardening)
 - On January 11, 2025 (+1 Wi, +2 Co) — this increase raises the bonus from stats to +7
 - In a garden at 50% quality (+10 to Gardening)
 - Equipped with a hoe at 50% quality (+5 to Gardening)
