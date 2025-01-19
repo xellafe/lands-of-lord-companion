@@ -137,7 +137,7 @@ function addSkillRow(row, skill) {
 }
 
 /* Aggiungo il blocco note sopra le notifiche (se è attivo) */
-async function toggleNotepad(translations) {
+async function addNotepad(translations) {
   const id = "notepad";
   //const isNotepadEnabled = await chrome.storage.local.get(id);
   if (!(await isOptionEnabled(id))) {
@@ -171,7 +171,7 @@ async function toggleNotepad(translations) {
     note.id = id;
     const textarea = document.createElement("textarea");
     textarea.placeholder = translations.notepad.placeholder;
-    textarea.classList.add("monospace", "bbinput");
+    textarea.classList.add("note", "monospace", "bbinput");
     textarea.style.height = "100%";
     textarea.style.overflowY = "auto";
 
@@ -298,7 +298,7 @@ async function addComponents() {
     { action: "getTranslation", language: languageResult },
     (response) => {
       const translations = response.translations;
-      toggleNotepad(translations);
+      addNotepad(translations);
       addInnateSkills(translations);
     }
   );
